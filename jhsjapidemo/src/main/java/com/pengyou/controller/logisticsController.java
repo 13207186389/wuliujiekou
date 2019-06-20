@@ -49,7 +49,7 @@ public class logisticsController {
         return result ;
     }
 
-    @GetMapping(value = "/aliyunget")
+    @GetMapping(value = "/")
     public String aliyunget(){
         //顺丰
         //String no = "SF1001457859475";
